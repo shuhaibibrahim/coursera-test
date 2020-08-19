@@ -1,0 +1,75 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+body{
+	padding-top: 5%;
+}
+h1{
+	text-align: center;
+	font-size: 175%;
+	margin-bottom: 2%
+}
+.container{
+	position: relative;
+	border:1px transparent solid;
+}
+.title{
+	font-size: 125%;
+	border: 1px black solid;
+	border-top: none;
+	border-right: none;
+	padding:2px 20px 2px 20px;
+	position: absolute;
+	top:11px;
+	right: 11px;
+}
+p{
+	background-color: grey;
+	border: 1px black solid;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:40px 3px 3px 3px;
+}
+.title1{
+	background-color: pink;
+}
+.title2{
+	background-color: red;
+	color: white;
+}
+.title3{
+	background-color: #FFF8DC;
+}
+@media (min-width: 992px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+		float:left;
+	}
+	.col-lg-4{
+		width: 33%;
+	}
+	.col-lg-6{
+		width: 50%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-mg-1, .col-mg-2, .col-mg-3, .col-mg-4, .col-mg-5, .col-mg-6,
+	.col-mg-7, .col-mg-8, .col-mg-9, .col-mg-10, .col-mg-11, .col-mg-12{
+		float:left;
+	}
+	.col-mg-4{
+		width: 33%;
+	}
+	.col-mg-6{
+		width: 50%;
+	}
+	.col-mg-12{
+		width: 100%;
+	}
+
+}
