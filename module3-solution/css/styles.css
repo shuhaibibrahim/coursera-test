@@ -1,0 +1,28 @@
+nav{
+	background: grey;
+	border-bottom: black 1px solid;
+}
+
+@media (min-width: 576px){
+	nav #navbarSupportedContent, #hideButton{
+		display: none !important;
+	}
+}
+
+ul li{
+	width:100%;
+	background: white;
+	border: black 1px solid;
+	margin-top: -1px;
+}
+ul li a{
+	color: black;
+	font-size: 120%;
+	font-weight: 500;
+}
+button{
+	color: black;
+}
+section{
+	background-color:rgba(0,0,0,0.3);
+}
